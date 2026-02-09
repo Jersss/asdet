@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).ogg",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "audio/ogg; codecs=opus"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
